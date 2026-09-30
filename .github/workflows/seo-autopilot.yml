@@ -1,12 +1,12 @@
 name: SEO Autopilot & Freshness Refresher
 
 on:
+  workflow_dispatch:
   schedule:
     # 00:00 UTC on the 1st of every month
     - cron: '0 0 1 * *'
     # 00:00 UTC every Sunday for weekly vitality check
     - cron: '0 0 * * 0'
-  workflow_dispatch:
 
 permissions:
   contents: write
