@@ -1,0 +1,68 @@
+name: SEO Autopilot & Freshness Refresher
+
+on:
+  schedule:
+    # 00:00 UTC on the 1st of every month
+    - cron: '0 0 1 * *'
+    # 00:00 UTC every Sunday for weekly vitality check
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  seo-refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run SEO Freshness and Connectivity Diagnostics
+        run: |
+          python3 scripts/seo_refresh.py
+
+      - name: Commit and push changes if updated
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git add README.md
+            git commit -m "chore(seo): automated monthly freshness & node status refresh [skip ci]"
+            git push
+          else
+            echo "No changes detected in README.md"
+          fi
+
+      - name: Auto-Publish Monthly SEO Release for SERP Crowding
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          YEAR_MONTH=$(date +"%Y.%m")
+          TAG_NAME="v${YEAR_MONTH}"
+          YEAR=${YEAR_MONTH:0:4}
+          MONTH=${YEAR_MONTH:5:2}
+          RELEASE_TITLE="${YEAR}年${MONTH}月最新 Just My Socks 优惠码与搬瓦工官方线路状态合集"
+
+          echo "Target Release Tag: $TAG_NAME"
+          if gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            echo "Release $TAG_NAME already exists, skipping."
+          else
+            echo "Creating new monthly SEO release: $TAG_NAME"
+            gh release create "$TAG_NAME" \
+              --title "$RELEASE_TITLE" \
+              --notes "### 🚀 ${YEAR}年${MONTH}月 Just My Socks 官方优惠码与最新网络线路状态
+
+- **官方最新专属优惠码**：\`JMS9272283\`（立减 **5.2% 永久循环折扣**，首购与续费全网通用）；
+- **全网最高性价比首选**：JMS LA 500 (三网 CN2 GIA / 联通 9929 顶级双程直连，2.5Gbps 超大带宽，支持支付宝)；
+- **全机房自动秒切 IP**：搬瓦工后台 7×24 秒级探活，被阻断自动秒分配全新可用 IP；
+- **原生支持海外 AI**：OpenAI / Claude.ai 原生解锁不报 403；
+- **完整购买教程与全平台客户端配置指南**：https://github.com/justmysocks-guide/justmysocks"
+          fi
