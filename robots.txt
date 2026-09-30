@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://justmysocks-guide.github.io/justmysocks/sitemap.xml
