@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://justmysocks-guide.github.io/justmysocks/"><img src="https://img.shields.io/badge/Live%20Website-Online%20Guide-success.svg?style=flat-square" alt="Live Website" /></a>
   <img src="https://img.shields.io/badge/Promo%20Code-JMS9272283%20(5.2%25%20OFF)-red.svg?style=flat-square" alt="Just My Socks Promo Code" />
   <img src="https://img.shields.io/badge/CN2%20GIA-Dual--Way%20Optimized-blue.svg?style=flat-square" alt="CN2 GIA Optimized" />
   <img src="https://img.shields.io/badge/IP%20Auto%20Failover-Supported-green.svg?style=flat-square" alt="Auto IP Failover" />
@@ -14,9 +15,9 @@
 </p>
 
 <!-- AUTO_FRESHNESS_START -->
-> 🕒 **自动化有效性巡检报告（最后核验：2026年09月30日）**：
+> 🕒 **自动化有效性巡检报告（最后核验：2026年10月01日）**：
 > - ✅ **官方最新专属优惠码**：`JMS9272283`（**5.2% 永久循环折扣**，首购与续费全网 100% 真实有效）；
-> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 4.7ms，已自动对齐最新官方镜像直达跳板）；
+> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 17.7ms，已自动对齐最新官方镜像直达跳板）；
 > - ⚡️ **三网路由状态**：洛杉矶 CN2 GIA / 联通 9929 顶级优化专线正常，日本软银/香港 IPLC 延迟优异；
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
