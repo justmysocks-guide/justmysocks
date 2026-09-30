@@ -24,6 +24,9 @@ if ! git diff --quiet README.md; then
     git commit -m "chore(seo): automated monthly freshness & node status refresh [skip ci]" >> "$LOG_FILE" 2>&1
     git push origin main >> "$LOG_FILE" 2>&1
     echo "[+] Successfully pushed SEO freshness update to GitHub." >> "$LOG_FILE"
+    curl -s -X POST "https://api.day.app/x23x7UumVP3ZZgENJGZ6M8" \
+        -H "Content-Type: application/json" \
+        -d '{"title":"JMS 仓库自动更新完成","body":"检测到内容变动，已自动提交并推送到 GitHub (main 分支) [skip ci]","group":"JMS-Guide","sound":"bell","url":"https://github.com/justmysocks-guide/justmysocks"}' >> "$LOG_FILE" 2>&1 || true
 else
     echo "[*] No freshness content changes required today (README.md is already up to date)." >> "$LOG_FILE"
 fi

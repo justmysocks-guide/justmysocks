@@ -6,15 +6,20 @@ Features:
 - Verifies connectivity & latency across official mirror domains
 - Link Failover: Automatically updates README affiliate URLs to the healthiest active mirror
 - Updates timestamps & SEO freshness signals
+- Pushes real-time Bark notification to user device
 """
 
 import datetime
+import json
 import os
 import re
 import socket
 import time
+import urllib.parse
+import urllib.request
 
 README_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
+BARK_WEBHOOK = os.getenv("BARK_WEBHOOK", "https://api.day.app/x23x7UumVP3ZZgENJGZ6M8")
 
 # Official candidate mirror domains provided by BandwagonHost / IT7 Networks
 OFFICIAL_MIRRORS = [
@@ -29,6 +34,31 @@ OFFICIAL_MIRRORS = [
 TEST_HOSTS = [
     ("1.1.1.1", 53),
 ]
+
+
+def send_bark(title: str, body: str, url: str = "https://github.com/justmysocks-guide/justmysocks"):
+    """Send immediate notification to user's iOS Bark client."""
+    if not BARK_WEBHOOK:
+        return
+    try:
+        payload = {
+            "title": title,
+            "body": body,
+            "group": "JMS-Guide",
+            "icon": "https://raw.githubusercontent.com/justmysocks-guide/.github/main/assets/logo.png",
+            "url": url,
+            "sound": "anticipate"
+        }
+        req = urllib.request.Request(
+            BARK_WEBHOOK,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={"Content-Type": "application/json", "User-Agent": "RedSignal/1.0"}
+        )
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            pass
+        print(f"[+] Bark notification sent: {title}")
+    except Exception as e:
+        print(f"[!] Bark notification failed: {e}")
 
 
 def check_endpoint_latency(host: str, port: int, timeout: float = 2.5) -> float:
@@ -57,7 +87,7 @@ def select_best_mirror() -> tuple:
         # Fallback to default if all failed
         return ("justmysocks.net", 999.0)
 
-    # Prefer justmysocks.net if it is alive and under 100ms, otherwise pick lowest latency
+    # Prefer justmysocks.net if it is alive and under 150ms, otherwise pick lowest latency
     primary = next((item for item in results if item[0] == "justmysocks.net"), None)
     if primary and primary[1] < 150.0:
         return primary
@@ -114,12 +144,21 @@ def main():
     else:
         updated_content = updated_content.replace("\n---\n", f"\n\n{freshness_block}\n\n---\n", 1)
 
-    if updated_content != content:
+    changed = (updated_content != content)
+    if changed:
         with open(README_PATH, "w", encoding="utf-8") as f:
             f.write(updated_content)
         print("[+] README.md freshness block & mirror links successfully refreshed!")
+        send_bark(
+            "JMS 巡检刷新成功",
+            f"检测到最优可用镜像: {best_mirror} ({best_lat}ms)，已完成 README 时效性区块与故障转移对齐。"
+        )
     else:
         print("[*] No content changes needed in README.md.")
+        send_bark(
+            "JMS 自动化巡检心跳",
+            f"服务健康。当前主通道: {best_mirror} ({best_lat}ms)，README 内容处于最新状态。"
+        )
 
 
 if __name__ == "__main__":
