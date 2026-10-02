@@ -19,6 +19,7 @@ import urllib.parse
 import urllib.request
 
 README_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
+INDEX_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "index.md")
 BARK_WEBHOOK = os.getenv("BARK_WEBHOOK", "https://api.day.app/x23x7UumVP3ZZgENJGZ6M8")
 
 # Official candidate mirror domains provided by BandwagonHost / IT7 Networks
@@ -114,20 +115,10 @@ def main():
         lat = check_endpoint_latency(host, port)
         print(f"  - Backbone {host}:{port} -> {lat}ms")
 
-    if not os.path.exists(README_PATH):
-        print(f"[!] README.md not found at {README_PATH}")
-        return
-
-    with open(README_PATH, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    # 3. Dynamic failover of affiliate links in README
-    # Matches https://justmysocks*.net/members/aff.php...
+    # 3. Dynamic failover of affiliate links & freshness block for both README.md and index.md
     aff_pattern = re.compile(r"https://justmysocks\d*\.net/members/aff\.php")
     target_aff_url = f"https://{best_mirror}/members/aff.php"
-    updated_content = aff_pattern.sub(target_aff_url, content)
 
-    # 4. Freshness block update
     freshness_block = (
         f"<!-- AUTO_FRESHNESS_START -->\n"
         f"> 🕒 **自动化有效性巡检报告（最后核验：{date_str}）**：\n"
@@ -139,26 +130,33 @@ def main():
     )
 
     pattern = re.compile(r"<!-- AUTO_FRESHNESS_START -->.*?<!-- AUTO_FRESHNESS_END -->", re.DOTALL)
-    if pattern.search(updated_content):
-        updated_content = pattern.sub(freshness_block, updated_content)
-    else:
-        updated_content = updated_content.replace("\n---\n", f"\n\n{freshness_block}\n\n---\n", 1)
+    any_changed = False
 
-    changed = (updated_content != content)
-    if changed:
-        with open(README_PATH, "w", encoding="utf-8") as f:
-            f.write(updated_content)
-        print("[+] README.md freshness block & mirror links successfully refreshed!")
+    for target_path in [README_PATH, INDEX_PATH]:
+        if not os.path.exists(target_path):
+            continue
+        with open(target_path, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        updated_content = aff_pattern.sub(target_aff_url, content)
+        if pattern.search(updated_content):
+            updated_content = pattern.sub(freshness_block, updated_content)
+        else:
+            updated_content = updated_content.replace("\n---\n", f"\n\n{freshness_block}\n\n---\n", 1)
+
+        if updated_content != content:
+            with open(target_path, "w", encoding="utf-8") as f:
+                f.write(updated_content)
+            any_changed = True
+            print(f"[+] {os.path.basename(target_path)} refreshed successfully!")
+
+    if any_changed:
         send_bark(
             "JMS 巡检刷新成功",
-            f"检测到最优可用镜像: {best_mirror} ({best_lat}ms)，已完成 README 时效性区块与故障转移对齐。"
+            f"检测到最优可用镜像: {best_mirror} ({best_lat}ms)，已完成页面时效性区块与故障转移对齐。"
         )
     else:
-        print("[*] No content changes needed in README.md.")
-        send_bark(
-            "JMS 自动化巡检心跳",
-            f"服务健康。当前主通道: {best_mirror} ({best_lat}ms)，README 内容处于最新状态。"
-        )
+        print("[*] All files already up-to-date.")
 
 
 if __name__ == "__main__":

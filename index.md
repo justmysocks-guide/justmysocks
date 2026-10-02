@@ -1,4 +1,9 @@
-# Just My Socks (JMS) 官网购买教程与 2026 最新优惠码指南 (BandwagonHost 搬瓦工官方直营服务)
+---
+layout: default
+title: "Just My Socks 2026最新优惠码与官网购买教程 (JMS 搬瓦工 5.2% 折扣)"
+description: "搬瓦工官方直营 Just My Socks 2026 最新优惠码 JMS9272283（永久 5.2% 循环折扣）。全机房 CN2 GIA / 软银 / 香港 IPLC 线路对比与选型，Clash Verge Rev / Sing-box / Shadowrocket 客户端一键订阅配置手册与 ChatGPT / Claude 原生分流教程。"
+lang: zh-CN
+---
 
 <p align="center">
   <a href="https://justmysocks.net/members/aff.php?aff=24082">
