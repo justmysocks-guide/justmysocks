@@ -1,7 +1,8 @@
-title: "Just My Socks (JMS) 官网购买教程与 2026 最新优惠码指南"
+title: "Just My Socks 官网购买指南"
 description: "搬瓦工官方直营 Just My Socks 2026 最新优惠码 JMS9272283（永久 5.2% 循环折扣）。全机房 CN2 GIA / 软银 / 香港 IPLC 线路对比与选型，Clash Verge Rev / Sing-box / Shadowrocket 客户端一键订阅配置手册与 ChatGPT / Claude 原生分流教程。"
 url: "https://justmysocks-guide.github.io"
 baseurl: "/justmysocks"
+lang: "zh-CN"
 google_site_verification: "google9fdd5d19efa5ae0e"
 plugins:
   - jekyll-seo-tag

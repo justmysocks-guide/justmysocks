@@ -1,7 +1,12 @@
-# Just My Socks (JMS) 官网购买教程与 2026 最新优惠码指南 (BandwagonHost 搬瓦工官方直营服务)
+---
+layout: default
+title: "Just My Socks 2026最新优惠码与官网购买教程 (JMS 搬瓦工 5.2% 折扣)"
+description: "搬瓦工官方直营 Just My Socks 2026 最新优惠码 JMS9272283（永久 5.2% 循环折扣）。全机房 CN2 GIA / 软银 / 香港 IPLC 线路对比与选型，Clash Verge Rev / Sing-box / Shadowrocket 客户端一键订阅配置手册与 ChatGPT / Claude 原生分流教程。"
+lang: zh-CN
+---
 
 <p align="center">
-  <a href="https://justmysocks.net/members/aff.php?aff=24082">
+  <a href="https://justmysocks3.net/members/aff.php?aff=24082">
     <img src="https://raw.githubusercontent.com/justmysocks-guide/.github/main/assets/logo.png" width="120" height="120" alt="Just My Socks Guide Logo" />
   </a>
 </p>
@@ -15,9 +20,9 @@
 </p>
 
 <!-- AUTO_FRESHNESS_START -->
-> 🕒 **自动化有效性巡检报告（最后核验：2026年10月01日）**：
+> 🕒 **自动化有效性巡检报告（最后核验：2026年10月02日）**：
 > - ✅ **官方最新专属优惠码**：`JMS9272283`（**5.2% 永久循环折扣**，首购与续费全网 100% 真实有效）；
-> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 17.7ms，已自动对齐最新官方镜像直达跳板）；
+> - 🌐 **官方存活安全通道**：`justmysocks3.net`（探针延迟 63.4ms，已自动对齐最新官方镜像直达跳板）；
 > - ⚡️ **三网路由状态**：洛杉矶 CN2 GIA / 联通 9929 顶级优化专线正常，日本软银/香港 IPLC 延迟优异；
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
@@ -71,6 +76,19 @@ Just My Socks（简称 **JMS**）是由加拿大老牌主机巨头 **IT7 Network
 
 Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次购买、未来每次月付或年付续费时，均自动享受终身 5.2% 减免**。
 
+<div class="coupon-box">
+  <span class="coupon-tag">🔥 2026 官方全网唯一永久循环有效折扣码</span>
+  <br/>
+  <div class="coupon-code-val" id="couponText">JMS9272283</div>
+  <br/>
+  <button class="coupon-btn" id="copyCouponBtn" onclick="copyAndDirect()">
+    📋 <span>一键复制优惠码并直达官网选购 (立减 5.2%)</span>
+  </button>
+  <div id="copySuccessMsg" style="display:none; color:#2e7d32; font-weight:700; font-size:14px; margin-top:10px;">
+    ✅ 优惠码 JMS9272283 已复制！正在前往官方安全商城...
+  </div>
+</div>
+
 | 官方最新专属优惠码 | 折扣力度 | 适用范围 | 使用说明 |
 | :---: | :---: | :---: | :--- |
 | `JMS9272283` | **5.2% 永久折扣** | 全场所有套餐方案通用 | 结算页填入并点击 `Validate Code` 即刻生效 |
@@ -85,12 +103,12 @@ Just My Socks 目前在全球布局了洛杉矶（LA）、东京（Tokyo）、�
 
 | 方案名称 | 核心线路优势 | 带宽 | 每月流量 | 限制设备数 | 官方标价 | 选型推荐场景 | 购买直达入口 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :---: |
-| **JMS LA 500**<br>*(爆款明星)* | 洛杉矶 CN2 GIA / 联通 9929<br>移动 CMI 三网直连 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【最推荐入门首选】**<br>性价比之王，三网优化极佳，畅刷 4K 视频，个人与小微工作室首选。 | [👉 立即选购](https://justmysocks.net/members/aff.php?aff=24082&pid=2) |
-| **JMS LA 1000** | 洛杉矶 CN2 GIA 高速冗余 | **5 Gbps** | 1000 GB | 无限制 | $9.88 / 月<br>$98.88 / 年 | **【高带宽多设备首选】**<br>大流量重度用户、外贸团队多人共享办公无压力。 | [👉 立即选购](https://justmysocks.net/members/aff.php?aff=24082&pid=3) |
-| **JMS Tokyo 100** | 日本东京优质软银专线<br>极低物理延迟 (40~70ms) | **100 Mbps** | 100 GB | 3 台 | $29.99 / 月<br>$299.99 / 年 | **【游戏与低延迟敏感型】**<br>沿海地区极速体验，外贸实时沟通、外服游戏推荐。 | [👉 立即选购](https://justmysocks.net/members/aff.php?aff=24082&pid=4) |
-| **JMS Tokyo 500** | 日本软银优质大带宽 | **200 Mbps** | 500 GB | 5 台 | $34.99 / 月<br>$349.99 / 年 | **【日本节点重度商业户】**<br>大流量兼顾低延迟首选。 | [👉 立即选购](https://justmysocks.net/members/aff.php?aff=24082&pid=5) |
-| **JMS HK 100** | 香港优质 GIA / IPLC 极速直连<br>全国延迟 20~40ms | **100 Mbps** | 100 GB | 3 台 | $34.50 / 月<br>$345.00 / 年 | **【高端企业商务专线】**<br>媲美内地专线的极致低延迟体验，商务应急首选。 | [👉 立即选购](https://justmysocks.net/members/aff.php?aff=24082&pid=6) |
-| **JMS London 500** | 欧洲伦敦移动 CMI 优质线路 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【欧洲业务专属】**<br>适合英国/欧洲跨境电商运营、海外合规业务等。 | [👉 立即选购](https://justmysocks.net/members/aff.php?aff=24082&pid=7) |
+| **JMS LA 500**<br>*(爆款明星)* | 洛杉矶 CN2 GIA / 联通 9929<br>移动 CMI 三网直连 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【最推荐入门首选】**<br>性价比之王，三网优化极佳，畅刷 4K 视频，个人与小微工作室首选。 | <a href="https://justmysocks3.net/members/aff.php?aff=24082&pid=2" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
+| **JMS LA 1000** | 洛杉矶 CN2 GIA 高速冗余 | **5 Gbps** | 1000 GB | 无限制 | $9.88 / 月<br>$98.88 / 年 | **【高带宽多设备首选】**<br>大流量重度用户、外贸团队多人共享办公无压力。 | <a href="https://justmysocks3.net/members/aff.php?aff=24082&pid=3" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
+| **JMS Tokyo 100** | 日本东京优质软银专线<br>极低物理延迟 (40~70ms) | **100 Mbps** | 100 GB | 3 台 | $29.99 / 月<br>$299.99 / 年 | **【游戏与低延迟敏感型】**<br>沿海地区极速体验，外贸实时沟通、外服游戏推荐。 | <a href="https://justmysocks3.net/members/aff.php?aff=24082&pid=4" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
+| **JMS Tokyo 500** | 日本软银优质大带宽 | **200 Mbps** | 500 GB | 5 台 | $34.99 / 月<br>$349.99 / 年 | **【日本节点重度商业户】**<br>大流量兼顾低延迟首选。 | <a href="https://justmysocks3.net/members/aff.php?aff=24082&pid=5" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
+| **JMS HK 100** | 香港优质 GIA / IPLC 极速直连<br>全国延迟 20~40ms | **100 Mbps** | 100 GB | 3 台 | $34.50 / 月<br>$345.00 / 年 | **【高端企业商务专线】**<br>媲美内地专线的极致低延迟体验，商务应急首选。 | <a href="https://justmysocks3.net/members/aff.php?aff=24082&pid=6" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
+| **JMS London 500** | 欧洲伦敦移动 CMI 优质线路 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【欧洲业务专属】**<br>适合英国/欧洲跨境电商运营、海外合规业务等。 | <a href="https://justmysocks3.net/members/aff.php?aff=24082&pid=7" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
 
 ---
 
@@ -209,8 +227,53 @@ Just My Socks 支持严格且透明的 **3 天内全额退款政策**：
 
 ## 📢 总结与官方安全购买入口
 
-👉 **[点击前往 Just My Socks 官方安全直达通道选购](https://justmysocks.net/members/aff.php?aff=24082)**  
+👉 **[点击前往 Just My Socks 官方安全直达通道选购](https://justmysocks3.net/members/aff.php?aff=24082)**  
 *(结账请填入官方永久优惠码：`JMS9272283` 享受折上折)*
 
 ---
 *合规声明：本指南仅供跨国学术研究、跨境软件开发与合规外贸业务技术参考，请自觉遵守当地网络法律法规。本页面包含官方合作推荐链接，感谢支持！*
+
+<!-- 浮动优惠条与快捷复制逻辑 -->
+<div class="floating-coupon-bar">
+  <span class="float-text">🔥 官方优惠码：<strong style="color:#d93025; letter-spacing:1px;">JMS9272283</strong> (立减5.2%)</span>
+  <a href="javascript:void(0)" class="float-btn" onclick="copyAndDirect()">一键复制直达</a>
+</div>
+
+<script>
+function copyAndDirect() {
+  var code = "JMS9272283";
+  var targetUrl = "https://justmysocks3.net/members/aff.php?aff=24082";
+  
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(code).then(function() {
+      showCopiedFeedback(targetUrl);
+    }).catch(function() {
+      fallbackCopy(code, targetUrl);
+    });
+  } else {
+    fallbackCopy(code, targetUrl);
+  }
+}
+
+function fallbackCopy(text, targetUrl) {
+  var input = document.createElement("textarea");
+  input.value = text;
+  document.body.appendChild(input);
+  input.select();
+  try {
+    document.execCommand("copy");
+  } catch (e) {}
+  document.body.removeChild(input);
+  showCopiedFeedback(targetUrl);
+}
+
+function showCopiedFeedback(targetUrl) {
+  var msg = document.getElementById("copySuccessMsg");
+  var btn = document.getElementById("copyCouponBtn");
+  if (msg) msg.style.display = "block";
+  if (btn) btn.innerHTML = "✅ <span>优惠码已复制！正在跳转官网...</span>";
+  setTimeout(function() {
+    window.open(targetUrl, "_blank");
+  }, 600);
+}
+</script>
