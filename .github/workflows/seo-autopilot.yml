@@ -36,12 +36,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain README.md)" ]; then
-            git add README.md
-            git commit -m "chore(seo): automated monthly freshness & node status refresh [skip ci]"
+          if [ -n "$(git status --porcelain README.md index.md)" ]; then
+            git add README.md index.md
+            git commit -m "chore(seo): automated freshness & node status refresh [skip ci]"
             git push
           else
-            echo "No changes detected in README.md"
+            echo "No changes detected in README.md or index.md"
           fi
 
       - name: Auto-Publish Monthly SEO Release for SERP Crowding
@@ -59,13 +59,17 @@ jobs:
             echo "Release $TAG_NAME already exists, skipping."
           else
             echo "Creating new monthly SEO release: $TAG_NAME"
+            cat << 'EOF' > release_notes.md
+          ### 🚀 最新 Just My Socks 官方优惠码与网络线路状态
+
+          - **官方最新专属优惠码**：`JMS9272283`（立减 **5.2% 永久循环折扣**，首购与续费全网通用）；
+          - **全网最高性价比首选**：JMS LA 500 (三网 CN2 GIA / 联通 9929 顶级双程直连，2.5Gbps 超大带宽，支持支付宝)；
+          - **全机房自动秒切 IP**：搬瓦工后台 7×24 秒级探活，被阻断自动秒分配全新可用 IP；
+          - **原生支持海外 AI**：OpenAI / Claude.ai 原生解锁不报 403；
+          - **完整购买教程与全平台客户端配置指南**：https://justmysocks-guide.github.io/justmysocks/
+          EOF
             gh release create "$TAG_NAME" \
               --title "$RELEASE_TITLE" \
-              --notes "### 🚀 ${YEAR}年${MONTH}月 Just My Socks 官方优惠码与最新网络线路状态
-
-- **官方最新专属优惠码**：\`JMS9272283\`（立减 **5.2% 永久循环折扣**，首购与续费全网通用）；
-- **全网最高性价比首选**：JMS LA 500 (三网 CN2 GIA / 联通 9929 顶级双程直连，2.5Gbps 超大带宽，支持支付宝)；
-- **全机房自动秒切 IP**：搬瓦工后台 7×24 秒级探活，被阻断自动秒分配全新可用 IP；
-- **原生支持海外 AI**：OpenAI / Claude.ai 原生解锁不报 403；
-- **完整购买教程与全平台客户端配置指南**：https://github.com/justmysocks-guide/justmysocks"
+              --notes-file release_notes.md
+            rm -f release_notes.md
           fi
