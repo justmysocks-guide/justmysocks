@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Just My Socks 2026最新优惠码与官网购买教程 (JMS 搬瓦工 5.2% 折扣)"
-description: "搬瓦工官方直营 Just My Socks 2026 最新优惠码 JMS9272283（永久 5.2% 循环折扣）。全机房 CN2 GIA / 软银 / 香港 IPLC 线路对比与选型，Clash Verge Rev / Sing-box / Shadowrocket 客户端一键订阅配置手册与 ChatGPT / Claude 原生分流教程。"
+title: "Just My Socks 2026最新JMS优惠码与官网镜像直达 (5.2%折扣)"
+description: "【2026亲测有效】Just My Socks 官方循环优惠码 JMS9272283，立减 5.2% 且续费永久生效。提供搬瓦工 JMS 官网最新国内免翻镜像直达入口、洛杉矶 CN2 GIA/香港 IPLC 节点选型对比与全平台一键订阅教程。"
 lang: zh-CN
 ---
 
@@ -20,12 +20,26 @@ lang: zh-CN
 </p>
 
 <!-- AUTO_FRESHNESS_START -->
-> 🕒 **自动化有效性巡检报告（最后核验：2026年10月04日）**：
+> 🕒 **自动化有效性巡检报告（最后核验：2026年10月06日）**：
 > - ✅ **官方最新专属优惠码**：`JMS9272283`（**5.2% 永久循环折扣**，首购与续费全网 100% 真实有效）；
-> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 56.3ms，已自动对齐最新官方镜像直达跳板）；
+> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 6.0ms，已自动对齐最新官方镜像直达跳板）；
 > - ⚡️ **三网路由状态**：洛杉矶 CN2 GIA / 联通 9929 顶级优化专线正常，日本软银/香港 IPLC 延迟优异；
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
+
+<!-- 首屏极速转化与核心意向满足卡片（搜优惠码/官网直达进站 0.5 秒即得） -->
+<div class="coupon-box" style="margin: 20px 0 28px 0;">
+  <span class="coupon-tag">🔥 2026 官方全网唯一永久循环有效折扣码</span>
+  <div style="margin: 8px 0 12px 0;">
+    <span class="coupon-code-val">JMS9272283</span>
+  </div>
+  <p style="margin: 6px 0 16px 0; font-size: 15px; color: #202124; font-weight: 500;">
+    ✅ 结账结算立减 <strong>5.2%</strong> 永久循环折扣 ｜ 年付折上再省 <strong>17%</strong> ｜ 搬瓦工官方直营保障
+  </p>
+  <a href="javascript:void(0)" class="coupon-btn" onclick="copyAndDirect()">
+    <span>📋 一键复制优惠码并直达官网结账</span>
+  </a>
+</div>
 
 ---
 
