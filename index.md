@@ -36,7 +36,7 @@ lang: zh-CN
   <p style="margin: 6px 0 16px 0; font-size: 15px; color: #202124; font-weight: 500;">
     ✅ 结账结算立减 <strong>5.2%</strong> 永久循环折扣 ｜ 年付折上再省 <strong>17%</strong> ｜ 搬瓦工官方直营保障
   </p>
-  <a href="javascript:void(0)" class="coupon-btn" onclick="copyAndDirect()">
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="noopener noreferrer" class="coupon-btn" onclick="copyCouponCode()">
     <span>📋 一键复制优惠码并直达官网结账</span>
   </a>
 </div>
@@ -95,11 +95,11 @@ Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次�
   <br/>
   <div class="coupon-code-val" id="couponText">JMS9272283</div>
   <br/>
-  <button class="coupon-btn" id="copyCouponBtn" onclick="copyAndDirect()">
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="noopener noreferrer" class="coupon-btn" id="copyCouponBtn" onclick="copyCouponCode()">
     📋 <span>一键复制优惠码并直达官网选购 (立减 5.2%)</span>
-  </button>
+  </a>
   <div id="copySuccessMsg" style="display:none; color:#2e7d32; font-weight:700; font-size:14px; margin-top:10px;">
-    ✅ 优惠码 JMS9272283 已复制！正在前往官方安全商城...
+    ✅ 优惠码 JMS9272283 已自动复制到剪贴板！
   </div>
 </div>
 
@@ -250,26 +250,25 @@ Just My Socks 支持严格且透明的 **3 天内全额退款政策**：
 <!-- 浮动优惠条与快捷复制逻辑 -->
 <div class="floating-coupon-bar">
   <span class="float-text">🔥 官方优惠码：<strong style="color:#d93025; letter-spacing:1px;">JMS9272283</strong> (立减5.2%)</span>
-  <a href="javascript:void(0)" class="float-btn" onclick="copyAndDirect()">一键复制直达</a>
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="noopener noreferrer" class="float-btn" onclick="copyCouponCode()">一键复制直达</a>
 </div>
 
 <script>
-function copyAndDirect() {
+function copyCouponCode() {
   var code = "JMS9272283";
-  var targetUrl = "https://justmysocks.net/members/aff.php?aff=24082";
+  var msg = document.getElementById("copySuccessMsg");
+  if (msg) msg.style.display = "block";
   
   if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(code).then(function() {
-      showCopiedFeedback(targetUrl);
-    }).catch(function() {
-      fallbackCopy(code, targetUrl);
+    navigator.clipboard.writeText(code).catch(function() {
+      fallbackCopy(code);
     });
   } else {
-    fallbackCopy(code, targetUrl);
+    fallbackCopy(code);
   }
 }
 
-function fallbackCopy(text, targetUrl) {
+function fallbackCopy(text) {
   var input = document.createElement("textarea");
   input.value = text;
   document.body.appendChild(input);
@@ -278,16 +277,5 @@ function fallbackCopy(text, targetUrl) {
     document.execCommand("copy");
   } catch (e) {}
   document.body.removeChild(input);
-  showCopiedFeedback(targetUrl);
-}
-
-function showCopiedFeedback(targetUrl) {
-  var msg = document.getElementById("copySuccessMsg");
-  var btn = document.getElementById("copyCouponBtn");
-  if (msg) msg.style.display = "block";
-  if (btn) btn.innerHTML = "✅ <span>优惠码已复制！正在跳转官网...</span>";
-  setTimeout(function() {
-    window.open(targetUrl, "_blank");
-  }, 600);
 }
 </script>

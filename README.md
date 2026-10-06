@@ -81,12 +81,9 @@ Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次�
   <br/>
   <div class="coupon-code-val" id="couponText">JMS9272283</div>
   <br/>
-  <button class="coupon-btn" id="copyCouponBtn" onclick="copyAndDirect()">
-    📋 <span>一键复制优惠码并直达官网选购 (立减 5.2%)</span>
-  </button>
-  <div id="copySuccessMsg" style="display:none; color:#2e7d32; font-weight:700; font-size:14px; margin-top:10px;">
-    ✅ 优惠码 JMS9272283 已复制！正在前往官方安全商城...
-  </div>
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" class="coupon-btn" id="copyCouponBtn">
+    📋 <span>直达官方商城选购 (结账填 JMS9272283 立减 5.2%)</span>
+  </a>
 </div>
 
 | 官方最新专属优惠码 | 折扣力度 | 适用范围 | 使用说明 |
@@ -233,47 +230,8 @@ Just My Socks 支持严格且透明的 **3 天内全额退款政策**：
 ---
 *合规声明：本指南仅供跨国学术研究、跨境软件开发与合规外贸业务技术参考，请自觉遵守当地网络法律法规。本页面包含官方合作推荐链接，感谢支持！*
 
-<!-- 浮动优惠条与快捷复制逻辑 -->
+<!-- 浮动优惠条 -->
 <div class="floating-coupon-bar">
   <span class="float-text">🔥 官方优惠码：<strong style="color:#d93025; letter-spacing:1px;">JMS9272283</strong> (立减5.2%)</span>
-  <a href="javascript:void(0)" class="float-btn" onclick="copyAndDirect()">一键复制直达</a>
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" class="float-btn">直达官方商城</a>
 </div>
-
-<script>
-function copyAndDirect() {
-  var code = "JMS9272283";
-  var targetUrl = "https://justmysocks.net/members/aff.php?aff=24082";
-  
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(code).then(function() {
-      showCopiedFeedback(targetUrl);
-    }).catch(function() {
-      fallbackCopy(code, targetUrl);
-    });
-  } else {
-    fallbackCopy(code, targetUrl);
-  }
-}
-
-function fallbackCopy(text, targetUrl) {
-  var input = document.createElement("textarea");
-  input.value = text;
-  document.body.appendChild(input);
-  input.select();
-  try {
-    document.execCommand("copy");
-  } catch (e) {}
-  document.body.removeChild(input);
-  showCopiedFeedback(targetUrl);
-}
-
-function showCopiedFeedback(targetUrl) {
-  var msg = document.getElementById("copySuccessMsg");
-  var btn = document.getElementById("copyCouponBtn");
-  if (msg) msg.style.display = "block";
-  if (btn) btn.innerHTML = "✅ <span>优惠码已复制！正在跳转官网...</span>";
-  setTimeout(function() {
-    window.open(targetUrl, "_blank");
-  }, 600);
-}
-</script>
