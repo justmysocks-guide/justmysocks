@@ -20,6 +20,7 @@ import urllib.request
 
 README_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
 INDEX_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "index.md")
+CLASH_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "clash", "index.md")
 BARK_WEBHOOK = os.getenv("BARK_WEBHOOK", "https://api.day.app/x23x7UumVP3ZZgENJGZ6M8")
 
 # Official candidate mirror domains provided by BandwagonHost / IT7 Networks
@@ -132,7 +133,7 @@ def main():
     pattern = re.compile(r"<!-- AUTO_FRESHNESS_START -->.*?<!-- AUTO_FRESHNESS_END -->", re.DOTALL)
     any_changed = False
 
-    for target_path in [README_PATH, INDEX_PATH]:
+    for target_path in [README_PATH, INDEX_PATH, CLASH_PATH]:
         if not os.path.exists(target_path):
             continue
         with open(target_path, "r", encoding="utf-8") as f:
@@ -148,7 +149,7 @@ def main():
             with open(target_path, "w", encoding="utf-8") as f:
                 f.write(updated_content)
             any_changed = True
-            print(f"[+] {os.path.basename(target_path)} refreshed successfully!")
+            print(f"[+] {target_path.replace(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/", "")} refreshed successfully!")
 
     if any_changed:
         send_bark(

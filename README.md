@@ -1,13 +1,15 @@
-# Just My Socks 2026最新JMS优惠码与官网镜像直达 (5.2%折扣) | 搬瓦工官方直营购买指南
+# Just My Socks (JMS) 2026 最新官方购买指南、优惠码 (Promo Code) 与自动化运维知识库
 
 <p align="center">
-  <a href="https://justmysocks.net/members/aff.php?aff=24082">
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer">
     <img src="https://raw.githubusercontent.com/justmysocks-guide/.github/main/assets/logo.png" width="120" height="120" alt="Just My Socks Guide Logo" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://justmysocks-guide.github.io/justmysocks/"><img src="https://img.shields.io/badge/Live%20Website-Online%20Guide-success.svg?style=flat-square" alt="Live Website" /></a>
+  <a href="https://github.com/justmysocks-guide/justmysocks/stargazers"><img src="https://img.shields.io/github/stars/justmysocks-guide/justmysocks?style=flat-square" alt="GitHub Stars" /></a>
+  <a href="https://github.com/justmysocks-guide/justmysocks/actions"><img src="https://github.com/justmysocks-guide/justmysocks/actions/workflows/seo-autopilot.yml/badge.svg" alt="SEO Autopilot" /></a>
   <img src="https://img.shields.io/badge/Promo%20Code-JMS9272283%20(5.2%25%20OFF)-red.svg?style=flat-square" alt="Just My Socks Promo Code" />
   <img src="https://img.shields.io/badge/CN2%20GIA-Dual--Way%20Optimized-blue.svg?style=flat-square" alt="CN2 GIA Optimized" />
   <img src="https://img.shields.io/badge/IP%20Auto%20Failover-Supported-green.svg?style=flat-square" alt="Auto IP Failover" />
@@ -15,9 +17,9 @@
 </p>
 
 <!-- AUTO_FRESHNESS_START -->
-> 🕒 **自动化有效性巡检报告（最后核验：2026年10月11日）**：
+> 🕒 **自动化有效性巡检报告（最后核验：2026年10月15日）**：
 > - ✅ **官方最新专属优惠码**：`JMS9272283`（**5.2% 永久循环折扣**，首购与续费全网 100% 真实有效）；
-> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 57.2ms，已自动对齐最新官方镜像直达跳板）；
+> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 5.9ms，已自动对齐最新官方镜像直达跳板）；
 > - ⚡️ **三网路由状态**：洛杉矶 CN2 GIA / 联通 9929 顶级优化专线正常，日本软银/香港 IPLC 延迟优异；
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
@@ -81,7 +83,7 @@ Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次�
   <br/>
   <div class="coupon-code-val" id="couponText">JMS9272283</div>
   <br/>
-  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" class="coupon-btn" id="copyCouponBtn">
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" class="coupon-btn" id="copyCouponBtn" rel="nofollow sponsored noopener noreferrer">
     📋 <span>直达官方商城选购 (结账填 JMS9272283 立减 5.2%)</span>
   </a>
 </div>
@@ -100,12 +102,12 @@ Just My Socks 目前在全球布局了洛杉矶（LA）、东京（Tokyo）、�
 
 | 方案名称 | 核心线路优势 | 带宽 | 每月流量 | 限制设备数 | 官方标价 | 选型推荐场景 | 购买直达入口 |
 | :--- | :--- | :---: | :---: | :---: | :---: | :--- | :---: |
-| **JMS LA 500**<br>*(爆款明星)* | 洛杉矶 CN2 GIA / 联通 9929<br>移动 CMI 三网直连 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【最推荐入门首选】**<br>性价比之王，三网优化极佳，畅刷 4K 视频，个人与小微工作室首选。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=2" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
-| **JMS LA 1000** | 洛杉矶 CN2 GIA 高速冗余 | **5 Gbps** | 1000 GB | 无限制 | $9.88 / 月<br>$98.88 / 年 | **【高带宽多设备首选】**<br>大流量重度用户、外贸团队多人共享办公无压力。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=3" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
-| **JMS Tokyo 100** | 日本东京优质软银专线<br>极低物理延迟 (40~70ms) | **100 Mbps** | 100 GB | 3 台 | $29.99 / 月<br>$299.99 / 年 | **【游戏与低延迟敏感型】**<br>沿海地区极速体验，外贸实时沟通、外服游戏推荐。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=4" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
-| **JMS Tokyo 500** | 日本软银优质大带宽 | **200 Mbps** | 500 GB | 5 台 | $34.99 / 月<br>$349.99 / 年 | **【日本节点重度商业户】**<br>大流量兼顾低延迟首选。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=5" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
-| **JMS HK 100** | 香港优质 GIA / IPLC 极速直连<br>全国延迟 20~40ms | **100 Mbps** | 100 GB | 3 台 | $34.50 / 月<br>$345.00 / 年 | **【高端企业商务专线】**<br>媲美内地专线的极致低延迟体验，商务应急首选。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=6" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
-| **JMS London 500** | 欧洲伦敦移动 CMI 优质线路 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【欧洲业务专属】**<br>适合英国/欧洲跨境电商运营、海外合规业务等。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=7" target="_blank" class="buy-btn-small">🚀 立即选购</a> |
+| **JMS LA 500**<br>*(爆款明星)* | 洛杉矶 CN2 GIA / 联通 9929<br>移动 CMI 三网直连 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【最推荐入门首选】**<br>性价比之王，三网优化极佳，畅刷 4K 视频，个人与小微工作室首选。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=2" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
+| **JMS LA 1000** | 洛杉矶 CN2 GIA 高速冗余 | **5 Gbps** | 1000 GB | 无限制 | $9.88 / 月<br>$98.88 / 年 | **【高带宽多设备首选】**<br>大流量重度用户、外贸团队多人共享办公无压力。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=3" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
+| **JMS Tokyo 100** | 日本东京优质软银专线<br>极低物理延迟 (40~70ms) | **100 Mbps** | 100 GB | 3 台 | $29.99 / 月<br>$299.99 / 年 | **【游戏与低延迟敏感型】**<br>沿海地区极速体验，外贸实时沟通、外服游戏推荐。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=4" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
+| **JMS Tokyo 500** | 日本软银优质大带宽 | **200 Mbps** | 500 GB | 5 台 | $34.99 / 月<br>$349.99 / 年 | **【日本节点重度商业户】**<br>大流量兼顾低延迟首选。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=5" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
+| **JMS HK 100** | 香港优质 GIA / IPLC 极速直连<br>全国延迟 20~40ms | **100 Mbps** | 100 GB | 3 台 | $34.50 / 月<br>$345.00 / 年 | **【高端企业商务专线】**<br>媲美内地专线的极致低延迟体验，商务应急首选。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=6" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
+| **JMS London 500** | 欧洲伦敦移动 CMI 优质线路 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【欧洲业务专属】**<br>适合英国/欧洲跨境电商运营、海外合规业务等。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=7" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
 
 ---
 
@@ -214,11 +216,34 @@ Just My Socks 支持严格且透明的 **3 天内全额退款政策**：
 
 为保障用户最佳体验，我们维护了配套开源工具集：
 
+- 📖 **[justmysocks](https://github.com/justmysocks-guide/justmysocks)**：2026 最新官方购买指南、自动化探活工作流与全场景知识库开源主仓库（欢迎 Star ⭐️）
+- ⚡️ **[Clash 专用分流配置教程 (网页版)](https://justmysocks-guide.github.io/justmysocks/clash/)**：手把手图文实战教程
 - ⚡️ **[jms-speedtest](https://github.com/justmysocks-guide/jms-speedtest)**：全球机房延迟实测、三网丢包率体检与 ChatGPT / Claude 原生 IP 解锁检测脚本
   ```bash
   curl -sSL https://raw.githubusercontent.com/justmysocks-guide/jms-speedtest/main/check.sh | bash
   ```
 - 🎯 **[clash-rules](https://github.com/justmysocks-guide/clash-rules)**：专为 Just My Socks 与海外 AI 优化的高性能 Clash Verge Rev / Sing-box 分流规则包
+
+---
+
+---
+
+## 九、🛠️ 开源架构与自动化运维 (Open Source Architecture & Autopilot)
+
+本项目不仅是知识库，也是一套开箱即用的**自动化网络探活与 SEO 保鲜工程**：
+
+1. **自动镜像健康度体检 (`scripts/seo_refresh.py`)**：
+   - 自动轮询检测 5 个官方镜像通道（`justmysocks.net` 到 `justmysocks5.net`）的 TCP 443 端口握手延迟；
+   - 自动选择延迟最低且连接畅通的官方安全入口，对全站链接实施动态故障转移（Failover）；
+   - 动态更新文内的“最后核验日期”与探针状态。
+2. **GitHub Actions 自动化流水线 (`.github/workflows/seo-autopilot.yml`)**：
+   - 每周日定时唤醒执行网络连通性体检；
+   - 每月 1 日自动发布月度 SEO Release 版本，向搜索引擎持续输出新鲜活跃度信号；
+   - 支持 iOS Bark 移动端推送（实时汇报探活成功与最优镜像延迟）。
+3. **本地手动运行巡检**：
+   ```bash
+   python3 scripts/seo_refresh.py
+   ```
 
 ---
 
@@ -233,5 +258,5 @@ Just My Socks 支持严格且透明的 **3 天内全额退款政策**：
 <!-- 浮动优惠条 -->
 <div class="floating-coupon-bar">
   <span class="float-text">🔥 官方优惠码：<strong style="color:#d93025; letter-spacing:1px;">JMS9272283</strong> (立减5.2%)</span>
-  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" class="float-btn">直达官方商城</a>
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" class="float-btn" rel="nofollow sponsored noopener noreferrer">直达官方商城</a>
 </div>
