@@ -23,7 +23,7 @@ lang: zh-CN
 <!-- AUTO_FRESHNESS_START -->
 > 🕒 **自动化有效性巡检报告（最后核验：2026年10月15日）**：
 > - ✅ **官方最新专属优惠码**：`JMS9272283`（**5.2% 永久循环折扣**，首购与续费全网 100% 真实有效）；
-> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 127.3ms，已自动对齐最新官方镜像直达跳板）；
+> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 4.4ms，已自动对齐最新官方镜像直达跳板）；
 > - ⚡️ **三网路由状态**：洛杉矶 CN2 GIA / 联通 9929 顶级优化专线正常，日本软银/香港 IPLC 延迟优异；
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
@@ -185,6 +185,9 @@ JMS9272283
 
 ## 六、海外 AI（ChatGPT / Claude）与流媒体分流防封与原生解锁实战
 
+> 💡 **专项深度指南**：针对需要重度使用 OpenAI、Anthropic Claude.ai 或经常遭遇 `403 Access Denied` 拦截的用户，推荐阅读我们编写的专项深度长文：  
+> 👉 **[【实战】Just My Socks 访问 ChatGPT 与 Claude 防封防阻断深度指南与节点策略](./chatgpt-claude/)**
+
 外贸人员、独立开发者在访问 ChatGPT、Claude.ai、Midjourney 时，经常遭遇 `Access Denied` 或账户封禁。Just My Socks 拥有独特的原生 IP 纯净度优势：
 
 1. **AI 服务适配表现**：
@@ -244,7 +247,7 @@ Just My Socks 支持严格且透明的 **3 天内全额退款政策**：
 ## 📢 总结与官方安全购买入口
 
 👉 **[点击前往 Just My Socks 官方安全直达通道选购](https://justmysocks.net/members/aff.php?aff=24082)**  
-👉 **[查看 GitHub 开源仓库与自动化脚本](https://github.com/justmysocks-guide/justmysocks)** ｜ **[Clash Verge / 小火箭专项配置指南](./clash/)**  
+👉 **[查看 GitHub 开源仓库与自动化脚本](https://github.com/justmysocks-guide/justmysocks)** ｜ **[Clash 订阅配置指南](./clash/)** ｜ **[ChatGPT & Claude 防封实战](./chatgpt-claude/)**  
 *(结账请填入官方永久优惠码：`JMS9272283` 享受折上折)*
 
 ---

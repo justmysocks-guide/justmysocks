@@ -13,6 +13,7 @@ lang: zh-CN
 
 <p align="center">
   <a href="../"><img src="https://img.shields.io/badge/Main%20Guide-JMS%20Guide-blue.svg?style=flat-square" alt="Main Guide" /></a>
+  <a href="../chatgpt-claude/"><img src="https://img.shields.io/badge/AI%20Guide-ChatGPT%20%26%20Claude-purple.svg?style=flat-square" alt="AI Guide" /></a>
   <a href="https://github.com/justmysocks-guide/justmysocks"><img src="https://img.shields.io/badge/GitHub-Source%20Repository-181717.svg?style=flat-square&logo=github" alt="GitHub Repository" /></a>
   <img src="https://img.shields.io/badge/Promo%20Code-JMS9272283%20(5.2%25%20OFF)-red.svg?style=flat-square" alt="Just My Socks Promo Code" />
   <img src="https://img.shields.io/badge/Protocol-Clash%20Meta%20%2F%20Mihomo-green.svg?style=flat-square" alt="Clash Meta" />
@@ -21,7 +22,7 @@ lang: zh-CN
 <!-- AUTO_FRESHNESS_START -->
 > 🕒 **自动化有效性巡检报告（最后核验：2026年10月15日）**：
 > - ✅ **官方最新专属优惠码**：`JMS9272283`（**5.2% 永久循环折扣**，首购与续费全网 100% 真实有效）；
-> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 127.3ms，已自动对齐最新官方镜像直达跳板）；
+> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 4.4ms，已自动对齐最新官方镜像直达跳板）；
 > - ⚡️ **三网路由状态**：洛杉矶 CN2 GIA / 联通 9929 顶级优化专线正常，日本软银/香港 IPLC 延迟优异；
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
@@ -139,7 +140,7 @@ Just My Socks 洛杉矶方案（JMS LA 500 / LA 1000）每个套餐都提供 **5
 - 使用 **Rule（规则分流）**，访问国内应用一律直连，仅在访问海外 AI 时固定通过 JMS 纯净优质节点。
 
 ### 2. 推荐规则集搭配
-推荐搭配我们开源维护的专用规则库：**[clash-rules](https://github.com/justmysocks-guide/clash-rules)**。
+推荐搭配我们开源维护的专用规则库：**[clash-rules](https://github.com/justmysocks-guide/clash-rules)**。如需了解机房选型与防封原理，请参阅：👉 **[【实战】Just My Socks 访问 ChatGPT 与 Claude 防封节点与分流深度指南](../chatgpt-claude/)**。
 该规则库已预置对 `openai.com`、`chatgpt.com`、`claude.ai`、`anthropic.com` 的精准拦截分流，保障与海外大模型的交互 0 阻断、不报错 403 Access Denied。
 
 ---
