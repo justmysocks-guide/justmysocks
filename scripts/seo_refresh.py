@@ -149,7 +149,8 @@ def main():
             with open(target_path, "w", encoding="utf-8") as f:
                 f.write(updated_content)
             any_changed = True
-            print(f"[+] {target_path.replace(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "/", "")} refreshed successfully!")
+            rel_name = os.path.relpath(target_path, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+            print(f"[+] {rel_name} refreshed successfully!")
 
     if any_changed:
         send_bark(
