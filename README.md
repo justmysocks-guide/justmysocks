@@ -1,4 +1,4 @@
-# Just My Socks (JMS) 2026 最新官方购买指南、优惠码 (Promo Code) 与自动化运维知识库
+# JustMySocks 优惠码 (Promo Code) 与 2026 购买教程：CN2 GIA 线路评测与 Clash / Mihomo 智能分流知识库
 
 <p align="center">
   <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer">
@@ -24,8 +24,8 @@
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
 
-> 💡 **快速选购与折扣代码**：
-> - **官方永久循环优惠码**：`JMS9272283`（结账立减 5.2%，续费终身有效）；
+> 💡 **JustMySocks 优惠码与快速选购通道**：
+> - **2026 官方最新 JustMySocks 优惠码**：`JMS9272283`（结账立减 5.2%，永久循环续费有效）；
 > - **官方免翻镜像直达通道**：[点击直达 Just My Socks 官方安全入口](https://justmysocks.net/members/aff.php?aff=24082)；
 > - **支付支持**：支付宝（Alipay）、银联、PayPal。
 
@@ -34,7 +34,7 @@
 ## 📌 目录索引 (Table of Contents)
 
 1. [先搞清楚：Just My Socks 到底是什么？为什么比自建 VPS 更省心？](#一先搞清楚just-my-socks-到底是什么为什么比自建-vps-更省心)
-2. [2026 官方最新优惠码（永久循环折扣 5.2%）](#二2026-官方最新优惠码永久循环折扣-52)
+2. [JustMySocks 优惠码 2026 最新整理（永久循环折扣 5.2%）](#二justmysocks-优惠码-2026-最新整理永久循环折扣-52)
 3. [全机房核心套餐横向选型对比表（怎么选最划算？）](#三全机房核心套餐横向选型对比表怎么选最划算)
 4. [手把手购买与结算流程（支持支付宝、银联直接人民币结算）](#四手把手购买与结算流程支持支付宝银联直接人民币结算)
 5. [全平台现代客户端一键订阅与配置实战（2026 最新规范）](#五全平台现代客户端一键订阅与配置实战2026-最新规范)
@@ -74,9 +74,9 @@ Just My Socks（简称 **JMS**）是由加拿大老牌主机巨头 **IT7 Network
 
 ---
 
-## 二、2026 官方最新优惠码（永久循环折扣 5.2%）
+## 二、JustMySocks 优惠码 2026 最新整理（永久循环折扣 5.2%）
 
-Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次购买、未来每次月付或年付续费时，均自动享受终身 5.2% 减免**。
+JustMySocks 官方常年提供专属循环折扣码（JustMySocks 优惠码），**该优惠码在首次购买、未来每次月付或年付续费时，均自动享受终身 5.2% 减免**。
 
 <div class="coupon-box">
   <span class="coupon-tag">🔥 2026 官方全网唯一永久循环有效折扣码</span>
