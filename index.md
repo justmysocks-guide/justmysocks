@@ -23,7 +23,7 @@ lang: zh-CN
 <!-- AUTO_FRESHNESS_START -->
 > 🕒 **自动化有效性巡检报告（最后核验：2026年10月24日）**：
 > - ✅ **官方最新专属优惠码**：`JMS9272283`（**5.2% 永久循环折扣**，首购与续费全网 100% 真实有效）；
-> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 66.3ms，已自动对齐最新官方镜像直达跳板）；
+> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 75.5ms，已自动对齐最新官方镜像直达跳板）；
 > - ⚡️ **三网路由状态**：洛杉矶 CN2 GIA / 联通 9929 顶级优化专线正常，日本软银/香港 IPLC 延迟优异；
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
@@ -119,7 +119,7 @@ Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次�
 Just My Socks 目前在全球布局了洛杉矶（LA）、东京（Tokyo）、香港（Hong Kong）、伦敦（London）等多个核心节点。
 
 | 方案名称 | 核心线路优势 | 带宽 | 每月流量 | 限制设备数 | 官方标价 | 选型推荐场景 | 购买直达入口 |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| :--- | :--- | :---: | :---: | :---: | :---: | :--- | :---: |
 | **JMS LA 500**<br>*(爆款明星)* | 洛杉矶 CN2 GIA / 联通 9929<br>移动 CMI 三网直连 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【最推荐入门首选】**<br>性价比之王，三网优化极佳，畅刷 4K 视频，个人与小微工作室首选。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=2" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
 | **JMS LA 1000** | 洛杉矶 CN2 GIA 高速冗余 | **5 Gbps** | 1000 GB | 无限制 | $9.88 / 月<br>$98.88 / 年 | **【高带宽多设备首选】**<br>大流量重度用户、外贸团队多人共享办公无压力。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=3" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
 | **JMS Tokyo 100** | 日本东京优质软银专线<br>极低物理延迟 (40~70ms) | **100 Mbps** | 100 GB | 3 台 | $29.99 / 月<br>$299.99 / 年 | **【游戏与低延迟敏感型】**<br>沿海地区极速体验，外贸实时沟通、外服游戏推荐。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=4" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
