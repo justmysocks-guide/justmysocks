@@ -10,7 +10,7 @@
   <a href="https://justmysocks-guide.github.io/justmysocks/"><img src="https://img.shields.io/badge/Live%20Website-Online%20Guide-success.svg?style=flat-square" alt="Live Website" /></a>
   <a href="https://github.com/justmysocks-guide/justmysocks/stargazers"><img src="https://img.shields.io/github/stars/justmysocks-guide/justmysocks?style=flat-square" alt="GitHub Stars" /></a>
   <a href="https://github.com/justmysocks-guide/justmysocks/actions"><img src="https://github.com/justmysocks-guide/justmysocks/actions/workflows/seo-autopilot.yml/badge.svg" alt="SEO Autopilot" /></a>
-  <img src="https://img.shields.io/badge/Promo%20Code-JMS9272283%20(5.2%25%20OFF)-red.svg?style=flat-square" alt="Just My Socks Promo Code" />
+  <a href="https://justmysocks-guide.github.io/justmysocks/coupon/"><img src="https://img.shields.io/badge/Promo%20Code-JMS9272283%20(5.2%25%20OFF)-red.svg?style=flat-square" alt="Just My Socks Promo Code" /></a>
   <img src="https://img.shields.io/badge/CN2%20GIA-Dual--Way%20Optimized-blue.svg?style=flat-square" alt="CN2 GIA Optimized" />
   <img src="https://img.shields.io/badge/IP%20Auto%20Failover-Supported-green.svg?style=flat-square" alt="Auto IP Failover" />
   <img src="https://img.shields.io/badge/Status-100%25%20Online-brightgreen.svg?style=flat-square" alt="Online Status" />
@@ -25,7 +25,7 @@
 <!-- AUTO_FRESHNESS_END -->
 
 > 💡 **JustMySocks 优惠码与快速选购通道**：
-> - **2026 官方最新 JustMySocks 优惠码**：`JMS9272283`（结账立减 5.2%，永久循环续费有效）；
+> - **2026 官方最新 JustMySocks 优惠码**：`JMS9272283`（结账立减 5.2%，永久循环续费有效）—— [优惠券专页：各套餐到手价与验码方法](https://justmysocks-guide.github.io/justmysocks/coupon/)；
 > - **官方免翻镜像直达通道**：[点击直达 Just My Socks 官方安全入口](https://justmysocks.net/members/aff.php?aff=24082)；
 > - **支付支持**：支付宝（Alipay）、银联、PayPal。
 
@@ -34,7 +34,7 @@
 ## 📌 目录索引 (Table of Contents)
 
 1. [先搞清楚：Just My Socks 到底是什么？为什么比自建 VPS 更省心？](#一先搞清楚just-my-socks-到底是什么为什么比自建-vps-更省心)
-2. [JustMySocks 优惠码 2026 最新整理（永久循环折扣 5.2%）](#二justmysocks-优惠码-2026-最新整理永久循环折扣-52)
+2. [JustMySocks 优惠码 2026 最新整理（永久循环折扣 5.2%）](#二justmysocks-优惠码-2026-最新整理永久循环折扣-52) ｜ [Just My Socks 优惠券专页](https://justmysocks-guide.github.io/justmysocks/coupon/)
 3. [全机房核心套餐横向选型对比表（怎么选最划算？）](#三全机房核心套餐横向选型对比表怎么选最划算)
 4. [手把手购买与结算流程（支持支付宝、银联直接人民币结算）](#四手把手购买与结算流程支持支付宝银联直接人民币结算)
 5. [全平台现代客户端一键订阅与配置实战（2026 最新规范）](#五全平台现代客户端一键订阅与配置实战2026-最新规范)
@@ -78,6 +78,8 @@ Just My Socks（简称 **JMS**）是由加拿大老牌主机巨头 **IT7 Network
 
 JustMySocks 官方常年提供专属循环折扣码（JustMySocks 优惠码），**该优惠码在首次购买、未来每次月付或年付续费时，均自动享受终身 5.2% 减免**。
 
+每个套餐用码后的实际到手价、年付怎么叠加最划算，单独整理在了 [Just My Socks 优惠券与优惠码专页](https://justmysocks-guide.github.io/justmysocks/coupon/)，付款前照那页的办法验一次码，数字对得上再付。
+
 <div class="coupon-box">
   <span class="coupon-tag">🔥 2026 官方全网唯一永久循环有效折扣码</span>
   <br/>
@@ -92,7 +94,7 @@ JustMySocks 官方常年提供专属循环折扣码（JustMySocks 优惠码）�
 | :---: | :---: | :---: | :--- |
 | `JMS9272283` | **5.2% 永久折扣** | 全场所有套餐方案通用 | 结算页填入并点击 `Validate Code` 即刻生效 |
 
-> 📌 **省钱技巧**：选择 **年付（Annual）** 方案本身自带“付 10 个月用 12 个月”的折上折优惠，再叠加优惠码 `JMS9272283`，综合折扣低至 **8 折左右**，性价比最高。
+> 📌 **省钱技巧**：选择 **年付（Annual）** 方案本身自带“付 10 个月用 12 个月”的折上折优惠，再叠加优惠码 `JMS9272283`，综合折扣低至 **8 折左右**，性价比最高（测算明细见 [优惠码专页](https://justmysocks-guide.github.io/justmysocks/coupon/)）。
 
 ---
 
