@@ -28,6 +28,7 @@
 > - **2026 官方最新 JustMySocks 优惠码**：`JMS9272283`（结账立减 5.2%，永久循环续费有效）—— [优惠券专页：各套餐到手价与验码方法](https://justmysocks-guide.github.io/justmysocks/coupon/)；
 > - **官方免翻镜像直达通道**：[点击直达 Just My Socks 官方安全入口](https://justmysocks.net/members/aff.php?aff=24082)；
 > - **支付支持**：支付宝（Alipay）、银联、PayPal。
+> - **English guide**: [Just My Socks plans, promo code and setup](https://justmysocks-guide.github.io/justmysocks/en/)
 
 ---
 
