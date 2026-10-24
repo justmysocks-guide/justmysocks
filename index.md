@@ -45,6 +45,8 @@ lang: zh-CN
 </div>
 </div>
 
+>  English reader? See the [Just My Socks English guide](en/) for plans, promo code and setup in English.
+>
 ## 📌 目录索引 (Table of Contents)
 
 1. [先搞清楚：Just My Socks 到底是什么？为什么比自建 VPS 更省心？](#一先搞清楚just-my-socks-到底是什么为什么比自建-vps-更省心)
