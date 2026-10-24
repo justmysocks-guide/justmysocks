@@ -6,7 +6,7 @@ lang: zh-CN
 ---
 
 <p align="center">
-  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer">
+  <a href="https://justmysocks3.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer">
     <img src="https://raw.githubusercontent.com/justmysocks-guide/.github/main/assets/logo.png" width="100" height="100" alt="Just My Socks Guide Logo" />
   </a>
 </p>
@@ -22,7 +22,7 @@ lang: zh-CN
 <!-- AUTO_FRESHNESS_START -->
 > 🕒 **自动化有效性巡检报告（最后核验：2026年10月24日）**：
 > - ✅ **官方最新专属优惠码**：`JMS9272283`（**5.2% 永久循环折扣**，首购与续费全网 100% 真实有效）；
-> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 78.1ms，已自动对齐最新官方镜像直达跳板）；
+> - 🌐 **官方存活安全通道**：`justmysocks3.net`（探针延迟 59.3ms，已自动对齐最新官方镜像直达跳板）；
 > - ⚡️ **三网路由状态**：洛杉矶 CN2 GIA / 联通 9929 顶级优化专线正常，日本软银/香港 IPLC 延迟优异；
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
@@ -36,7 +36,7 @@ lang: zh-CN
   <p style="margin: 4px 0 12px 0; font-size: 14px; color: #202124;">
     结账立减 <strong>5.2%</strong> 永久有效 ｜ <a href="../" style="color: #1a73e8; font-weight: 600;">👉 查看全机房套餐选型对比与价格表</a>
   </p>
-  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="coupon-btn" style="padding: 10px 22px; font-size: 15px;" onclick="copyCouponCode()">
+  <a href="https://justmysocks3.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="coupon-btn" style="padding: 10px 22px; font-size: 15px;" onclick="copyCouponCode()">
     <span>📋 一键复制优惠码并前往官方选购</span>
   </a>
 </div>
@@ -81,7 +81,7 @@ lang: zh-CN
 **搬瓦工官方后台现已原生支持直接导出 Clash 格式！**
 
 ### 获取步骤：
-1. 打开 [Just My Socks 官方安全直达入口](https://justmysocks.net/members/aff.php?aff=24082) 登录用户后台；
+1. 打开 [Just My Socks 官方安全直达入口](https://justmysocks3.net/members/aff.php?aff=24082) 登录用户后台；
 2. 点击顶部导航栏 **Services** -> **My Services**，点击进入你当前购买的套餐详情（Service Details）；
 3. 向下滚动到 **Subscription Details** 区域：
    - 默认显示的可能为通用订阅链接（Universal Subscription URL）；
@@ -189,7 +189,7 @@ Just My Socks 洛杉矶方案（JMS LA 500 / LA 1000）每个套餐都提供 **5
   <p style="margin: 6px 0 16px 0; font-size: 15px; color: #202124;">
     在结算页填入并点击 <code>Validate Code</code> 即刻生效，首购与续费永久享受 5.2% 循环减免！
   </p>
-  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="coupon-btn" onclick="copyCouponCode()">
+  <a href="https://justmysocks3.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="coupon-btn" onclick="copyCouponCode()">
     <span>🚀 复制优惠码并前往 Just My Socks 官方安全通道</span>
   </a>
 </div>
@@ -201,7 +201,7 @@ Just My Socks 洛杉矶方案（JMS LA 500 / LA 1000）每个套餐都提供 **5
 <!-- 浮动优惠条与快捷复制逻辑 -->
 <div class="floating-coupon-bar">
   <span class="float-text">🔥 优惠码：<strong style="color:#d93025; letter-spacing:1px;">JMS9272283</strong> (立减5.2%)</span>
-  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="float-btn" onclick="copyCouponCode()">一键复制直达</a>
+  <a href="https://justmysocks3.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="float-btn" onclick="copyCouponCode()">一键复制直达</a>
 </div>
 
 <script>
