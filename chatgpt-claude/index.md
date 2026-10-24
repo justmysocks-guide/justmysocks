@@ -6,7 +6,7 @@ lang: zh-CN
 ---
 
 <p align="center">
-  <a href="https://justmysocks3.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer">
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer">
     <img src="https://raw.githubusercontent.com/justmysocks-guide/.github/main/assets/logo.png" width="100" height="100" alt="Just My Socks Guide Logo" />
   </a>
 </p>
@@ -21,7 +21,7 @@ lang: zh-CN
 <!-- AUTO_FRESHNESS_START -->
 > 🕒 **自动化有效性巡检报告（最后核验：2026年10月24日）**：
 > - ✅ **官方最新专属优惠码**：`JMS9272283`（**5.2% 永久循环折扣**，首购与续费全网 100% 真实有效）；
-> - 🌐 **官方存活安全通道**：`justmysocks3.net`（探针延迟 59.3ms，已自动对齐最新官方镜像直达跳板）；
+> - 🌐 **官方存活安全通道**：`justmysocks.net`（探针延迟 62.4ms，已自动对齐最新官方镜像直达跳板）；
 > - ⚡️ **三网路由状态**：洛杉矶 CN2 GIA / 联通 9929 顶级优化专线正常，日本软银/香港 IPLC 延迟优异；
 > - 🛡️ **自动化防护体系**：搬瓦工后台 7×24 秒级探活运转中，IP 异常自动秒切，保障访问 ChatGPT / Claude 0 阻断。
 <!-- AUTO_FRESHNESS_END -->
@@ -35,7 +35,7 @@ lang: zh-CN
   <p style="margin: 4px 0 12px 0; font-size: 14px; color: #202124;">
     结账立减 <strong>5.2%</strong> 永久有效 ｜ <a href="../" style="color: #1a73e8; font-weight: 600;">👉 查看全机房套餐选型对比与价格表</a>
   </p>
-  <a href="https://justmysocks3.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="coupon-btn" style="padding: 10px 22px; font-size: 15px;" onclick="copyCouponCode()">
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="coupon-btn" style="padding: 10px 22px; font-size: 15px;" onclick="copyCouponCode()">
     <span>📋 一键复制优惠码并前往官方选购</span>
   </a>
 </div>
@@ -172,9 +172,9 @@ proxy-groups:
 
 | 套餐方案 | 带宽 / 每月流量 | 适用场景推荐 | 购买直达入口 |
 | :--- | :---: | :--- | :---: |
-| **JMS LA 500**<br>*(AI 爆款首选)* | **2.5 Gbps**<br>500 GB / 月 | **【最推荐入门方案】**<br>标配洛杉矶 CN2 GIA / 联通 9929 双程直连专线，原生解锁 ChatGPT，支持 5 台设备。性价比极高！ | [👉 选购 JMS LA 500](https://justmysocks3.net/members/aff.php?aff=24082&pid=2) |
-| **JMS London 500**<br>*(Claude 专属)* | **2.5 Gbps**<br>500 GB / 月 | **【Claude 重度工作者专属】**<br>英国伦敦纯净机房专线，原生规避 Anthropic 苛刻机房风控，极佳稳定性。 | [👉 选购 JMS London 500](https://justmysocks3.net/members/aff.php?aff=24082&pid=7) |
-| **JMS LA 1000**<br>*(团队工作室)* | **5 Gbps**<br>1000 GB / 月 | **【多人共享与高频大流量】**<br>无设备连接数限制，适合跨境研发工作室或多人合租拼车。 | [👉 选购 JMS LA 1000](https://justmysocks3.net/members/aff.php?aff=24082&pid=3) |
+| **JMS LA 500**<br>*(AI 爆款首选)* | **2.5 Gbps**<br>500 GB / 月 | **【最推荐入门方案】**<br>标配洛杉矶 CN2 GIA / 联通 9929 双程直连专线，原生解锁 ChatGPT，支持 5 台设备。性价比极高！ | [👉 选购 JMS LA 500](https://justmysocks.net/members/aff.php?aff=24082&pid=2) |
+| **JMS London 500**<br>*(Claude 专属)* | **2.5 Gbps**<br>500 GB / 月 | **【Claude 重度工作者专属】**<br>英国伦敦纯净机房专线，原生规避 Anthropic 苛刻机房风控，极佳稳定性。 | [👉 选购 JMS London 500](https://justmysocks.net/members/aff.php?aff=24082&pid=7) |
+| **JMS LA 1000**<br>*(团队工作室)* | **5 Gbps**<br>1000 GB / 月 | **【多人共享与高频大流量】**<br>无设备连接数限制，适合跨境研发工作室或多人合租拼车。 | [👉 选购 JMS LA 1000](https://justmysocks.net/members/aff.php?aff=24082&pid=3) |
 
 > 📌 **省钱必填折扣码**：结算订单时在 `Promotional Code` 输入 **`JMS9272283`** 并点击 `Validate Code`，立享 **5.2% 永久循环优惠**，年付折上再省 17%！
 
@@ -206,7 +206,7 @@ curl -sSL https://raw.githubusercontent.com/justmysocks-guide/jms-speedtest/main
   <p style="margin: 6px 0 16px 0; font-size: 15px; color: #202124;">
     在结算页填入并点击 <code>Validate Code</code> 即刻生效，首购与续费永久享受 5.2% 循环减免！
   </p>
-  <a href="https://justmysocks3.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="coupon-btn" onclick="copyCouponCode()">
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="coupon-btn" onclick="copyCouponCode()">
     <span>🚀 复制优惠码并前往 Just My Socks 官方安全通道</span>
   </a>
 </div>
@@ -219,7 +219,7 @@ curl -sSL https://raw.githubusercontent.com/justmysocks-guide/jms-speedtest/main
 <!-- 浮动优惠条与快捷复制逻辑 -->
 <div class="floating-coupon-bar">
   <span class="float-text">🔥 优惠码：<strong style="color:#d93025; letter-spacing:1px;">JMS9272283</strong> (立减5.2%)</span>
-  <a href="https://justmysocks3.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="float-btn" onclick="copyCouponCode()">一键复制直达</a>
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="float-btn" onclick="copyCouponCode()">一键复制直达</a>
 </div>
 
 <script>
