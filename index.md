@@ -49,7 +49,7 @@ lang: zh-CN
 1. [先搞清楚：Just My Socks 到底是什么？为什么比自建 VPS 更省心？](#一先搞清楚just-my-socks-到底是什么为什么比自建-vps-更省心)
 2. [2026 官方最新优惠码（永久循环折扣 5.2%）](#二2026-官方最新优惠码永久循环折扣-52) ｜ [优惠券专页：到手价实测与验码方法](coupon/)
 3. [全机房核心套餐横向选型对比表（怎么选最划算？）](#三全机房核心套餐横向选型对比表怎么选最划算)
-4. [手把手购买与结算流程（支持支付宝、银联直接人民币结算）](#四手把手购买与结算流程支持支付宝银联直接人民币结算)
+4. [手把手购买与结算流程（支持支付宝、银联直接人民币结算）](#四手把手购买与结算流程支持支付宝银联直接人民币结算) ｜ [购买教程专页](tutorial/)
 5. [全平台现代客户端一键订阅与配置实战（2026 最新规范）](#五全平台现代客户端一键订阅与配置实战2026-最新规范)
    - [Windows & macOS：Clash Verge Rev 现代化配置](#1-windows--macosclash-verge-rev-现代化配置)
    - [iOS（苹果手机/平板）：Shadowrocket（小火箭）扫码导入](#2-ios苹果手机平板shadowrocket小火箭扫码导入)
@@ -98,7 +98,7 @@ Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次�
   <br/>
   <div class="coupon-code-val" id="couponText">JMS9272283</div>
   <br/>
-  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" rel="nofollow sponsored noopener noreferrer" class="coupon-btn" id="copyCouponBtn" onclick="copyCouponCode()">
+  <a href="https://justmysocks.net/members/aff.php?aff=24082" target="_blank" class="coupon-btn" id="copyCouponBtn" onclick="copyCouponCode()">
     📋 <span>一键复制优惠码并直达官网选购 (立减 5.2%)</span>
   </a>
   <div id="copySuccessMsg" style="display:none; color:#2e7d32; font-weight:700; font-size:14px; margin-top:10px;">
@@ -130,6 +130,8 @@ Just My Socks 目前在全球布局了洛杉矶（LA）、东京（Tokyo）、�
 ---
 
 ## 四、手把手购买与结算流程（支持支付宝、银联直接人民币结算）
+
+第一次购买建议先看精简版：[Just My Socks 购买教程](tutorial/) 把选套餐、验优惠码、拿订阅链接每一步容易踩的坑都标出来了，本节是详细版。
 
 ### 第一步：选择套餐与付费周期
 点击上方表格中的直达入口进入官方订购页，计费周期选择 **Annually（年付）** 以享受买 10 送 2 优惠。
