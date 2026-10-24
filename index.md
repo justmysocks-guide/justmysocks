@@ -14,7 +14,7 @@ lang: zh-CN
 <p align="center">
   <a href="https://justmysocks-guide.github.io/justmysocks/"><img src="https://img.shields.io/badge/Live%20Website-Online%20Guide-success.svg?style=flat-square" alt="Live Website" /></a>
   <a href="https://github.com/justmysocks-guide/justmysocks"><img src="https://img.shields.io/badge/GitHub-Source%20Repository-181717.svg?style=flat-square&logo=github" alt="GitHub Repository" /></a>
-  <img src="https://img.shields.io/badge/Promo%20Code-JMS9272283%20(5.2%25%20OFF)-red.svg?style=flat-square" alt="Just My Socks Promo Code" />
+  <a href="coupon/"><img src="https://img.shields.io/badge/Promo%20Code-JMS9272283%20(5.2%25%20OFF)-red.svg?style=flat-square" alt="Just My Socks Promo Code" /></a>
   <img src="https://img.shields.io/badge/CN2%20GIA-Dual--Way%20Optimized-blue.svg?style=flat-square" alt="CN2 GIA Optimized" />
   <img src="https://img.shields.io/badge/IP%20Auto%20Failover-Supported-green.svg?style=flat-square" alt="Auto IP Failover" />
   <img src="https://img.shields.io/badge/Status-100%25%20Online-brightgreen.svg?style=flat-square" alt="Online Status" />
@@ -47,7 +47,7 @@ lang: zh-CN
 ## 📌 目录索引 (Table of Contents)
 
 1. [先搞清楚：Just My Socks 到底是什么？为什么比自建 VPS 更省心？](#一先搞清楚just-my-socks-到底是什么为什么比自建-vps-更省心)
-2. [2026 官方最新优惠码（永久循环折扣 5.2%）](#二2026-官方最新优惠码永久循环折扣-52)
+2. [2026 官方最新优惠码（永久循环折扣 5.2%）](#二2026-官方最新优惠码永久循环折扣-52) ｜ [优惠券专页：到手价实测与验码方法](coupon/)
 3. [全机房核心套餐横向选型对比表（怎么选最划算？）](#三全机房核心套餐横向选型对比表怎么选最划算)
 4. [手把手购买与结算流程（支持支付宝、银联直接人民币结算）](#四手把手购买与结算流程支持支付宝银联直接人民币结算)
 5. [全平台现代客户端一键订阅与配置实战（2026 最新规范）](#五全平台现代客户端一键订阅与配置实战2026-最新规范)
@@ -91,6 +91,8 @@ Just My Socks（简称 **JMS**）是由加拿大老牌主机巨头 **IT7 Network
 
 Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次购买、未来每次月付或年付续费时，均自动享受终身 5.2% 减免**。
 
+想先看每个套餐用码后到底付多少钱、付款前怎么自己验码，去 [Just My Socks 优惠券与优惠码专页](coupon/)：那里把 LA 500 / LA 1000 的到手价算成了表，也讲清了网传 75% OFF 那类假优惠码的套路。
+
 <div class="coupon-box">
   <span class="coupon-tag">🔥 2026 官方全网唯一永久循环有效折扣码</span>
   <br/>
@@ -108,7 +110,7 @@ Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次�
 | :---: | :---: | :---: | :--- |
 | `JMS9272283` | **5.2% 永久折扣** | 全场所有套餐方案通用 | 结算页填入并点击 `Validate Code` 即刻生效 |
 
-> 📌 **省钱技巧**：选择 **年付（Annual）** 方案本身自带“付 10 个月用 12 个月”的折上折优惠，再叠加优惠码 `JMS9272283`，综合折扣低至 **8 折左右**，性价比最高。
+> 📌 **省钱技巧**：选择 **年付（Annual）** 方案本身自带“付 10 个月用 12 个月”的折上折优惠，再叠加优惠码 `JMS9272283`，综合折扣低至 **8 折左右**，性价比最高（逐套餐到手价见 [优惠码实测专页](coupon/)）。
 
 ---
 
@@ -117,7 +119,7 @@ Just My Socks 官方常年提供专属循环折扣码，**该优惠码在首次�
 Just My Socks 目前在全球布局了洛杉矶（LA）、东京（Tokyo）、香港（Hong Kong）、伦敦（London）等多个核心节点。
 
 | 方案名称 | 核心线路优势 | 带宽 | 每月流量 | 限制设备数 | 官方标价 | 选型推荐场景 | 购买直达入口 |
-| :--- | :--- | :---: | :---: | :---: | :---: | :--- | :---: |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **JMS LA 500**<br>*(爆款明星)* | 洛杉矶 CN2 GIA / 联通 9929<br>移动 CMI 三网直连 | **2.5 Gbps** | 500 GB | 5 台 | $5.88 / 月<br>$58.88 / 年 | **【最推荐入门首选】**<br>性价比之王，三网优化极佳，畅刷 4K 视频，个人与小微工作室首选。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=2" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
 | **JMS LA 1000** | 洛杉矶 CN2 GIA 高速冗余 | **5 Gbps** | 1000 GB | 无限制 | $9.88 / 月<br>$98.88 / 年 | **【高带宽多设备首选】**<br>大流量重度用户、外贸团队多人共享办公无压力。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=3" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
 | **JMS Tokyo 100** | 日本东京优质软银专线<br>极低物理延迟 (40~70ms) | **100 Mbps** | 100 GB | 3 台 | $29.99 / 月<br>$299.99 / 年 | **【游戏与低延迟敏感型】**<br>沿海地区极速体验，外贸实时沟通、外服游戏推荐。 | <a href="https://justmysocks.net/members/aff.php?aff=24082&pid=4" target="_blank" class="buy-btn-small" rel="nofollow sponsored noopener noreferrer">🚀 立即选购</a> |
