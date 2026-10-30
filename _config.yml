@@ -7,3 +7,9 @@ google_site_verification: "google9fdd5d19efa5ae0e"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "google9fdd5d19efa5ae0e.html"
+    values:
+      sitemap: false
