@@ -42,9 +42,11 @@
 | `en/index.md` | [English Guide](https://justmysocks-guide.github.io/justmysocks/en/) | Plans, promo code and setup guide in English |
 | `clash/` | [Clash 教程](https://justmysocks-guide.github.io/justmysocks/clash/) | 订阅导入与 s3 / s4 线路切换 |
 | `chatgpt-claude/` | [AI 解锁说明](https://justmysocks-guide.github.io/justmysocks/chatgpt-claude/) | ChatGPT / Claude 403 的成因与处理 |
+| `review/index.md` | [实测评测](https://justmysocks-guide.github.io/justmysocks/review/) | 速度、稳定与 AI 解锁的分档实测方法与结果 |
 
 ## 更新日志
 
+- **2026-11-15**：新增实测评测页 `/review/`，方法公开、结果以实测日期为准；组织主页 README 瘦身为导航枢纽，消除站内蚕食。
 - **2026-10-24**：新增英文页 `/en/`；组织 FAQ 问答扩充至 8 篇（新增订阅安全、流量说明、官网辨别、客户端选择、合用拼车）。
 - **2026-10-24**：新增套餐对比页 `/plans/`，价格只收录多来源核对一致的条目。
 - **2026-10-24**：新增购买教程页 `/tutorial/`，与优惠码页互链。
